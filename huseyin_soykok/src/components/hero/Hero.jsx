@@ -59,6 +59,18 @@ const Hero = () => {
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
           </div>
+
+        <div className="hero">
+          <picture>
+          <source media="(max-width: 767px)" srcSet={heroContent.heroMobileImage} />
+           <source media="(min-width: 768px)" srcSet={heroContent.heroImage} />
+          <img src={heroContent.heroImage} alt="Hero" />
+          </picture>
+          <h1>{heroContent.heroTitleName}</h1>
+          <h2>{heroContent.heroDesignation}</h2>
+          <p>{heroContent.heroDescriptions}</p>
+          <button>{heroContent.heroBtn}</button>
+        </div>
         </div>
       </div>
       {/* End home-details-container */}
