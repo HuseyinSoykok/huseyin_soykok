@@ -4,8 +4,14 @@ const educationContent = [
   {
   year: "2024",
   degree: "SOFTWARE ENGINEERING DEGREE",
-  institute: "EASTERN MEDITERRANEAN UNIVERSITY",
+  institute: "EASTERN MEDITERRANEAN UNIVERSITY (EMU)",
   details: `Bachelor of software engineering.`,
+},
+{
+  year: "2024-in progress",
+  degree: "INFORMATION ENGINEERING",
+  institute: "TECHNİCAL UNIVERSITY OF MUNICH (TUM)",
+  details: `Master of information engineering.`,
 }
 ];
 

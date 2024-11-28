@@ -13,7 +13,7 @@ const Contact = () => {
         "service_ohyos9h",
         "template_zv47b85",
         form.current,
-        "frt2vLM9spsvQTffG"
+        "QCvoM1PLrY4xu1iDw"
       )
       .then(
         (result) => {
