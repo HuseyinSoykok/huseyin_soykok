@@ -10,7 +10,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Hüseyin Soykök",
   heroDesignation: "Software Engineer",
-  heroDescriptions: `A dynamic and extremely driven engineer who is committed to further expanding my knowledge of software and hardware technologies. I have a own interests, Cyber Security and Artificial Intelligence (AI). I am determined to complete assigned tasks with the highest efficiency.`,
+  heroDescriptions: `A dynamic and extremely driven engineer who is committed to further expanding my knowledge of software and hardware technologies. I have a own interests, Cybersecurity and Artificial Intelligence (AI). I am determined to complete assigned tasks with the highest efficiency.`,
   heroBtn: "more about me",
 };
 
@@ -26,9 +26,7 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + heroContent.heroImage
-            })`,
+            backgroundImage: `url(${heroContent.heroImage})`,
           }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
