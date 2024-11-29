@@ -6,7 +6,7 @@ const personalInfoContent = [
   { meta: "Age", metaInfo: "23 Years" },
   { meta: "Nationality", metaInfo: "Cypriot" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Cyprus" },
+  { meta: "Address", metaInfo: "Germany" },
   { meta: "Email", metaInfo: "soykokhuseyin@gmail.com" },
   { meta: "Instagram", metaInfo: "@huseyin_soykok" },
   { meta: "Languages", metaInfo: "Turkish (Native), English (Advance)" },
