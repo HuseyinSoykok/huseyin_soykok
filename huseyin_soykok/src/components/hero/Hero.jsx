@@ -40,7 +40,7 @@ const Hero = () => {
               id="custom-heading"
               className="text-uppercase poppins-font"
               style={{
-                fontSize: '2.4em',
+                fontSize: '2.2em',
                 textTransform: 'uppercase',
                 fontFamily: 'Open Sans, sans-serif',
                 background: `linear-gradient(45deg, #4169e1, #6495ed, #4169e1)`,
