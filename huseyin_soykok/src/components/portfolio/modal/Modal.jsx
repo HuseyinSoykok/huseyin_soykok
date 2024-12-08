@@ -15,6 +15,10 @@ import img92 from "../../../assets/img/portfolio/project-9.2.jpg";
 import img93 from "../../../assets/img/portfolio/project-9.3.jpg";
 import img101 from "../../../assets/img/portfolio/project-10.1.jpg";
 import img102 from "../../../assets/img/portfolio/project-10.2.jpg";
+import imgsh1 from "../../../assets/img/portfolio/sh1.jpg";
+import imgsh2 from "../../../assets/img/portfolio/sh2.jpg";
+import imgsh3 from "../../../assets/img/portfolio/sh3.jpg";
+
 
 
 import CloseImg from "../../../assets/img/cancel.svg";
@@ -760,7 +764,92 @@ const Modal = ({ modalId, setGetModal }) => {
                   );
 
 
-      }
+      }else if (modalId === 8) {
+        return (
+          <div className="modal_portfolio">
+            <div
+              className="modal__outside"
+              onClick={() => setGetModal(false)}
+            ></div>
+            <div className="modal__content">
+              {PortfolioData.filter((item) => item.id === modalId).map((item) => {
+                //
+                return (
+                  <div key={item.id} data-aos="fade">
+                    <h2 className="heading mb-2">{item.type}</h2>
+                    <div className="modal__details">
+                      {item.modalDetails.map((details, i) => {
+                        return (
+                          <div key={i} className="row open-sans-font">
+                            <div className="col-12 col-sm-6 mb-2">
+                              <i className="fa fa-file-text-o pr-2"></i>
+                              Project:{" "}
+                              <span className="ft-wt-600 uppercase">
+                                {details.project}
+                              </span>
+                            </div>
+                            <div className="col-12 col-sm-6 mb-2">
+                              <i className="fa fa-user-o pr-2"></i>
+                              Client :{" "}
+                              <span className="ft-wt-600 uppercase">
+                                {details.client}
+                              </span>
+                            </div>
+                            <div className="col-12 col-sm-6 mb-2">
+                              <i className="fa fa-code pr-2"></i>
+                              Language :{" "}
+                              <span className="ft-wt-600 uppercase">
+                                {details.language}
+                              </span>
+                            </div>
+                            <div className="col-12 col-sm-6 mb-2">
+                              <i className="fa fa-external-link pr-2"></i>
+                              Preview :{" "}
+                              <a
+                                className="preview-link"
+                                target="_blank"
+                                rel="noopener noreferrer nofollow"
+                                href={details.link}
+                              >
+                                {details.preview}
+                              </a>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    <figure className="modal__img">
+                      <Slider {...settings}>
+                        <div>
+                          <img src={item.image} alt="Law and Consultancy Service" />
+                        </div>
+                        <div>
+                          <img src={imgsh1} alt="Law and Consultancy Service" />
+                        </div>
+                        <div>
+                          <img src={imgsh2} alt="Law and Consultancy Service" />
+                        </div>
+                        <div>
+                          <img src={imgsh3} alt="Law and Consultancy Service" />
+                        </div>
+                      </Slider>
+                    </figure>
+    
+                    <button
+                      className="close-modal"
+                      onClick={() => setGetModal(false)}
+                    >
+                      <img src={CloseImg} alt="portfolio project demo" />
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+
+
+            }
       
 
 

@@ -5,6 +5,7 @@ import Image12 from "../../assets/img/portfolio/project-12.jpg";
 import s1 from "../../assets/img/portfolio/s1.jpg";
 import s2 from "../../assets/img/portfolio/s2.jpg";
 import s3 from "../../assets/img/portfolio/s3.jpg";
+import s4 from "../../assets/img/portfolio/s4.jpg";
 import DisableDevtool from 'disable-devtool';
 
 DisableDevtool();
@@ -119,6 +120,22 @@ const PortfolioData = [
         language: "ASP.Net, C++, HTML, CSS and Javascript",
         preview: "QR Based Entry-Exit System",
         link: "",
+      },
+    ],
+  },
+  {
+    id: 8,
+    type: "My Freelance Project 4",
+    image: s4,
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Website",
+        client: "WIX",
+        language: "Velo, Node.js",
+        preview: "Law and Consultancy Services",
+        link: "https://www.soykokhukuk.com/",
       },
     ],
   },
