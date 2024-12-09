@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huseyin_soykok/static/css/main.6ca0633f.css",
-    "main.js": "/huseyin_soykok/static/js/main.ecf2f561.js",
+    "main.js": "/huseyin_soykok/static/js/main.77f76ca9.js",
     "static/js/27.90720fc9.chunk.js": "/huseyin_soykok/static/js/27.90720fc9.chunk.js",
     "static/media/project-10.jpg": "/huseyin_soykok/static/media/project-10.0165f151875fa1ae0f52.jpg",
     "static/media/s3.jpg": "/huseyin_soykok/static/media/s3.6745aaed8c4098204152.jpg",
@@ -13,6 +13,7 @@
     "static/media/s4.jpg": "/huseyin_soykok/static/media/s4.858d4e4e77f638237b43.jpg",
     "static/media/blog-post-1.jpg": "/huseyin_soykok/static/media/blog-post-1.850cf9141d5ada5bcc3a.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/huseyin_soykok/static/media/fontawesome-webfont.d3e3c5c8a7bcbb1fb490.svg",
+    "static/media/blog-post-2.jpg": "/huseyin_soykok/static/media/blog-post-2.825359180842aa066114.jpg",
     "static/media/s2.jpg": "/huseyin_soykok/static/media/s2.0b288593f7c23d73ab66.jpg",
     "static/media/project-1.jpg": "/huseyin_soykok/static/media/project-1.9abbf06d7c12199ea143.jpg",
     "static/media/sh3.jpg": "/huseyin_soykok/static/media/sh3.212f30c95882552d69f6.jpg",
@@ -49,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.6ca0633f.css",
-    "static/js/main.ecf2f561.js"
+    "static/js/main.77f76ca9.js"
   ]
 }
