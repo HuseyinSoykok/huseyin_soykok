@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huseyin_soykok/static/css/main.6ca0633f.css",
-    "main.js": "/huseyin_soykok/static/js/main.a35e6589.js",
+    "main.js": "/huseyin_soykok/static/js/main.f516adee.js",
     "static/js/27.90720fc9.chunk.js": "/huseyin_soykok/static/js/27.90720fc9.chunk.js",
     "static/media/project-10.jpg": "/huseyin_soykok/static/media/project-10.0165f151875fa1ae0f52.jpg",
     "static/media/s3.jpg": "/huseyin_soykok/static/media/s3.6745aaed8c4098204152.jpg",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.6ca0633f.css",
-    "static/js/main.a35e6589.js"
+    "static/js/main.f516adee.js"
   ]
 }
