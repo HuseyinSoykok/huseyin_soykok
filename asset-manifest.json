@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/huseyin_soykok/static/css/main.6ca0633f.css",
-    "main.js": "/huseyin_soykok/static/js/main.7746254c.js",
+    "main.css": "/huseyin_soykok/static/css/main.20083032.css",
+    "main.js": "/huseyin_soykok/static/js/main.ef8653c7.js",
     "static/js/27.90720fc9.chunk.js": "/huseyin_soykok/static/js/27.90720fc9.chunk.js",
     "static/media/project-10.jpg": "/huseyin_soykok/static/media/project-10.0165f151875fa1ae0f52.jpg",
     "static/media/s3.jpg": "/huseyin_soykok/static/media/s3.6745aaed8c4098204152.jpg",
@@ -49,7 +49,7 @@
     "static/media/slick.woff": "/huseyin_soykok/static/media/slick.295183786cd8a1389865.woff"
   },
   "entrypoints": [
-    "static/css/main.6ca0633f.css",
-    "static/js/main.7746254c.js"
+    "static/css/main.20083032.css",
+    "static/js/main.ef8653c7.js"
   ]
 }
