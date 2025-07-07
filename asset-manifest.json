@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huseyin_soykok/static/css/main.6ca0633f.css",
-    "main.js": "/huseyin_soykok/static/js/main.104e0a4e.js",
+    "main.js": "/huseyin_soykok/static/js/main.7746254c.js",
     "static/js/27.90720fc9.chunk.js": "/huseyin_soykok/static/js/27.90720fc9.chunk.js",
     "static/media/project-10.jpg": "/huseyin_soykok/static/media/project-10.0165f151875fa1ae0f52.jpg",
     "static/media/s3.jpg": "/huseyin_soykok/static/media/s3.6745aaed8c4098204152.jpg",
@@ -16,12 +16,12 @@
     "static/media/blog-post-2.jpg": "/huseyin_soykok/static/media/blog-post-2.825359180842aa066114.jpg",
     "static/media/s2.jpg": "/huseyin_soykok/static/media/s2.0b288593f7c23d73ab66.jpg",
     "static/media/project-1.jpg": "/huseyin_soykok/static/media/project-1.9abbf06d7c12199ea143.jpg",
+    "static/media/Hüseyin Soykök CV Resume.pdf": "/huseyin_soykok/static/media/Hüseyin Soykök CV Resume.a2b7fdae7f9549db66ee.pdf",
     "static/media/sh3.jpg": "/huseyin_soykok/static/media/sh3.212f30c95882552d69f6.jpg",
     "static/media/project-3.jpg": "/huseyin_soykok/static/media/project-3.618ae838d71afcc6f3ab.jpg",
     "static/media/project-4.jpg": "/huseyin_soykok/static/media/project-4.bf9ea9c790bdcc516c83.jpg",
     "static/media/project-2.jpg": "/huseyin_soykok/static/media/project-2.a2fcfcba8ad2b08071fe.jpg",
     "static/media/project-6.jpg": "/huseyin_soykok/static/media/project-6.135293d2c33117bdd8b7.jpg",
-    "static/media/Hüseyin Soykök CV Resume.pdf": "/huseyin_soykok/static/media/Hüseyin Soykök CV Resume.8a4f4620c93c4011b43b.pdf",
     "static/media/fontawesome-webfont.eot": "/huseyin_soykok/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/huseyin_soykok/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/project-10.1.jpg": "/huseyin_soykok/static/media/project-10.1.d3de184e238a0fccba52.jpg",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.6ca0633f.css",
-    "static/js/main.104e0a4e.js"
+    "static/js/main.7746254c.js"
   ]
 }
