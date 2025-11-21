@@ -2,7 +2,7 @@ import Image8 from "../../assets/img/portfolio/project-8.jpg";
 import Image9 from "../../assets/img/portfolio/project-9.jpg";
 import Image10 from "../../assets/img/portfolio/project-10.jpg";
 import Image12 from "../../assets/img/portfolio/project-12.jpg";
-import s1 from "../../assets/img/portfolio/s1.jpg";
+import s1 from "../../assets/img/portfolio/s5.png";
 import s2 from "../../assets/img/portfolio/s2.jpg";
 import s3 from "../../assets/img/portfolio/s3.jpg";
 import s4 from "../../assets/img/portfolio/s4.jpg";
@@ -13,23 +13,23 @@ DisableDevtool();
 const PortfolioData = [
   {
     id: 1,
-    type: "My Freelance Project 1",
+    type: "Team Project 5",
     image: s1,
     tag: [],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Website",
-        client: "WIX",
-        language: "Velo and Node.js",
-        preview: "www.cyprus-taxi-now.com",
-        link: "https://www.cyprus-taxi-now.com",
+        project: "Generative AI WebApp",
+        client: "Python AI Integrated WebApp",
+        language: "Python, RestAPI, NodeJS, React and Postgresql",
+        preview: "RoomGPT",
+        link: "https://github.com/DogukanDG/GEN-AI-Project",
       },
     ],
   },
   {
     id: 2,
-    type: "My Freelance Project 2",
+    type: "My Freelance Project 1",
     image: s2,
     tag: [],
     delayAnimation: "200",
@@ -45,7 +45,7 @@ const PortfolioData = [
   },
   {
     id: 3,
-    type: "My Freelance Project 3",
+    type: "My Freelance Project 2",
     image: s3,
     tag: [],
     delayAnimation: "200",
@@ -125,7 +125,7 @@ const PortfolioData = [
   },
   {
     id: 8,
-    type: "My Freelance Project 4",
+    type: "My Freelance Project 3",
     image: s4,
     tag: [],
     delayAnimation: "200",

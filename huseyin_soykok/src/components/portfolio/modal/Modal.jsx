@@ -2,8 +2,10 @@ import React from "react";
 import img1 from "../../../assets/img/portfolio/project-1.jpg";
 import img2 from "../../../assets/img/portfolio/project-2.jpg";
 import img3 from "../../../assets/img/portfolio/project-3.jpg";
-import img4 from "../../../assets/img/portfolio/project-4.jpg";
-import img5 from "../../../assets/img/portfolio/project-5.jpg";
+import img4 from "../../../assets/img/portfolio/project-2-1.png";
+import img5 from "../../../assets/img/portfolio/project-2-2.png";
+import img5_1 from "../../../assets/img/portfolio/project-2-3.png";
+import img5_2 from "../../../assets/img/portfolio/project-2-4.png";
 import img6 from "../../../assets/img/portfolio/project-6.jpg";
 import img81 from "../../../assets/img/portfolio/project-8.1.jpg";
 import img82 from "../../../assets/img/portfolio/project-8.2.jpg";
@@ -247,13 +249,19 @@ const Modal = ({ modalId, setGetModal }) => {
                 <figure className="modal__img">
                   <Slider {...settings}>
                     <div>
-                      <img src={item.image} alt="WIX" />
+                      <img src={item.image} alt="Python" />
                     </div>
                     <div>
-                      <img src={img5} alt="WIX" />
+                      <img src={img4} alt="Python" />
                     </div>
                     <div>
-                      <img src={img6} alt="WIX" />
+                      <img src={img5} alt="Python" />
+                    </div>
+                      <div>
+                      <img src={img5_1} alt="Python" />
+                    </div>
+                      <div>
+                      <img src={img5_2} alt="Python" />
                     </div>
                   </Slider>
                 </figure>
@@ -262,7 +270,7 @@ const Modal = ({ modalId, setGetModal }) => {
                   className="close-modal"
                   onClick={() => setGetModal(false)}
                 >
-                  <img src={CloseImg} alt="WIX" />
+                  <img src={CloseImg} alt="Python" />
                 </button>
               </div>
             );
