@@ -40,7 +40,7 @@ const Portfolio = () => {
                         className="tab-content"
                         onClick={() => handleModal(id)}
                       >
-                        <img src={image} alt="portfolio project" />
+                        {image && <img src={image} alt="portfolio project" />}
                         <h3>
                           <span className="conent-title">{type}</span>
                         </h3>

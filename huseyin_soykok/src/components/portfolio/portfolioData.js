@@ -6,6 +6,13 @@ import s1 from "../../assets/img/portfolio/s5.png";
 import s2 from "../../assets/img/portfolio/s2.jpg";
 import s3 from "../../assets/img/portfolio/s3.jpg";
 import s4 from "../../assets/img/portfolio/s4.jpg";
+import tempPsi from "../../assets/img/portfolio/temp-psi.svg";
+import tempVmc from "../../assets/img/portfolio/temp-vmc.svg";
+import tempHospital from "../../assets/img/portfolio/temp-hospital.svg";
+import tempAirbnb from "../../assets/img/portfolio/temp-airbnb.svg";
+import tempNeuro from "../../assets/img/portfolio/temp-neuro.svg";
+import tempSap from "../../assets/img/portfolio/temp-sap.svg";
+import tempTaxi from "../../assets/img/portfolio/temp-taxi.svg";
 import DisableDevtool from 'disable-devtool';
 
 DisableDevtool();
@@ -136,6 +143,118 @@ const PortfolioData = [
         language: "Velo, Node.js",
         preview: "Law and Consultancy Services",
         link: "https://www.soykokhukuk.com/",
+      },
+    ],
+  },
+  {
+    id: 9,
+    type: "Team Project 6",
+    image: tempPsi, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Pharmacy Information System (PSI)",
+        client: "Eastern Mediterranean University",
+        language: "HTML, CSS and Javascript",
+        preview: "Pharmacy Information System",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 10,
+    type: "Team Project 7",
+    image: tempVmc, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Vehicle Motion Control (VMC) Real-Time System",
+        client: "Eastern Mediterranean University",
+        language: "Python (GUI and Real-Time Plotting)",
+        preview: "Vehicle Motion Control (VMC)",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 11,
+    type: "Team Project 8",
+    image: tempHospital, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Hospital Optimization Competition 2025",
+        client: "Technical University of Munich",
+        language: "Python, Genetic Algorithm (GA) and Simulated Annealing (SA)",
+        preview: "Business Process Optimization Competition 2025",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: "Team Project 9",
+    image: tempAirbnb, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "NYC Airbnb Data Analytics Desktop Application",
+        client: "Technical University of Munich",
+        language: "Python, PySide6/Qt6, Plotly and Pytest",
+        preview: "Modern Desktop App for Analyzing NYC Airbnb Data",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 13,
+    type: "Team Project 10",
+    image: tempNeuro, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Neuromorphic Computing (SpiNNaker2 / NeuroFEM)",
+        client: "Technical University of Munich & HLRS Stuttgart",
+        language: "Python, SpiNNaker2 (SpiNNcloud) and NeuroFEM",
+        preview: "Future Computing Laboratory - Neuromorphic PDE Solver",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 14,
+    type: "Team Project 11",
+    image: tempSap, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "AI-Powered SAP Custom Code Analyzer",
+        client: "Technical University of Munich & Deloitte",
+        language: "Claude Code Skills/Agents, ABAP Analysis (S/4HANA Conversion)",
+        preview: "AI Coding: Modern Software Development",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 15,
+    type: "My Freelance Project 4",
+    image: tempTaxi, // TODO: geçici görsel, gerçek görselle değiştirilecek
+    tag: [],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Website",
+        client: "Cyprus Taxi Now Company",
+        language: "Node.js and TypeScript",
+        preview: "Cyprus Taxi Now",
+        link: "",
       },
     ],
   },

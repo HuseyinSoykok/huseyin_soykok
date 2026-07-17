@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g opacity="0.08" fill="#ffffff">
+    <rect x="40" y="40" width="120" height="120" rx="16"/>
+    <rect x="660" y="360" width="100" height="100" rx="16"/>
+  </g>
+  <g transform="translate(300,200)">
+    <rect x="-110" y="-80" width="220" height="160" rx="12" fill="#ffffff" opacity="0.95"/>
+    <rect x="-24" y="0" width="48" height="80" fill="#7c3aed" opacity="0.85"/>
+    <g fill="#ef4444">
+      <rect x="-14" y="-58" width="28" height="8"/>
+      <rect x="-4" y="-68" width="8" height="28"/>
+    </g>
+    <g fill="#c4b5fd">
+      <rect x="-90" y="-40" width="26" height="26" rx="4"/>
+      <rect x="64" y="-40" width="26" height="26" rx="4"/>
+      <rect x="-90" y="8" width="26" height="26" rx="4"/>
+      <rect x="64" y="8" width="26" height="26" rx="4"/>
+    </g>
+  </g>
+  <g transform="translate(545,200)" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+    <circle cx="0" cy="-30" r="34"/>
+    <g stroke-width="8">
+      <line x1="0" y1="-78" x2="0" y2="-64"/>
+      <line x1="0" y1="4" x2="0" y2="18"/>
+      <line x1="-48" y1="-30" x2="-34" y2="-30"/>
+      <line x1="34" y1="-30" x2="48" y2="-30"/>
+      <line x1="-34" y1="-64" x2="-24" y2="-54"/>
+      <line x1="24" y1="-54" x2="34" y2="-64"/>
+      <line x1="-34" y1="4" x2="-24" y2="-6"/>
+      <line x1="24" y1="-6" x2="34" y2="4"/>
+    </g>
+    <polyline points="-90,90 -40,90 -20,45 5,110 25,70 90,70" stroke="#4ade80" stroke-width="7"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Hospital Optimization</text>
+  <text x="400" y="456" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#c4b5fd">Genetic Algorithm · Simulated Annealing</text>
+</svg>

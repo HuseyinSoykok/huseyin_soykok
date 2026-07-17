@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#0c1a4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#ffffff" opacity="0.08">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="260" x2="800" y2="260"/>
+    <line x1="100" y1="0" x2="100" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="500" y1="0" x2="500" y2="340"/>
+    <line x1="700" y1="0" x2="700" y2="340"/>
+  </g>
+  <polyline points="80,250 180,240 260,190 340,205 420,140 520,150 600,95 700,110" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#38bdf8">
+    <circle cx="80" cy="250" r="7"/><circle cx="260" cy="190" r="7"/><circle cx="420" cy="140" r="7"/><circle cx="600" cy="95" r="7"/>
+  </g>
+  <g transform="translate(400,320)">
+    <path d="M -120 10 Q -115 -25 -75 -30 L -45 -55 Q -35 -62 -20 -62 L 45 -62 Q 60 -62 70 -50 L 90 -28 Q 120 -22 122 5 Q 122 18 108 18 L -108 18 Q -120 18 -120 10 Z" fill="#ffffff" opacity="0.95"/>
+    <path d="M -40 -52 L -18 -52 L -18 -32 L -58 -32 Z" fill="#1d4ed8" opacity="0.8"/>
+    <path d="M -8 -52 L 42 -52 Q 52 -52 58 -44 L 66 -32 L -8 -32 Z" fill="#1d4ed8" opacity="0.8"/>
+    <circle cx="-70" cy="18" r="22" fill="#0c1a4b" stroke="#ffffff" stroke-width="6"/>
+    <circle cx="70" cy="18" r="22" fill="#0c1a4b" stroke="#ffffff" stroke-width="6"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffffff">Vehicle Motion Control</text>
+  <text x="400" y="456" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#93c5fd">Real-Time Simulation · Python GUI</text>
+</svg>
