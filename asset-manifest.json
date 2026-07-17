@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huseyin_soykok/static/css/main.6ca0633f.css",
-    "main.js": "/huseyin_soykok/static/js/main.11a7b7c1.js",
+    "main.js": "/huseyin_soykok/static/js/main.c74a5e37.js",
     "static/js/27.90720fc9.chunk.js": "/huseyin_soykok/static/js/27.90720fc9.chunk.js",
     "static/media/project-10.jpg": "/huseyin_soykok/static/media/project-10.0165f151875fa1ae0f52.jpg",
     "static/media/s3.jpg": "/huseyin_soykok/static/media/s3.6745aaed8c4098204152.jpg",
@@ -44,13 +44,20 @@
     "static/media/project-2-4.png": "/huseyin_soykok/static/media/project-2-4.b9e31e4409a763621e8c.png",
     "index.html": "/huseyin_soykok/index.html",
     "static/media/slick.svg": "/huseyin_soykok/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/temp-hospital.svg": "/huseyin_soykok/static/media/temp-hospital.e838dd008102c3d37a5210b115775e9c.svg",
     "static/media/slick.eot": "/huseyin_soykok/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/temp-taxi.svg": "/huseyin_soykok/static/media/temp-taxi.771c7658601017c9e9ec2c888bee7411.svg",
+    "static/media/temp-vmc.svg": "/huseyin_soykok/static/media/temp-vmc.eb62abf46ffdf88fa08f73d7cbc1886a.svg",
+    "static/media/temp-psi.svg": "/huseyin_soykok/static/media/temp-psi.a96e7edf5d2e088382fb9878aec6b066.svg",
     "static/media/slick.ttf": "/huseyin_soykok/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/temp-airbnb.svg": "/huseyin_soykok/static/media/temp-airbnb.d18208d0cdda3a972522c030b72b0daf.svg",
+    "static/media/temp-sap.svg": "/huseyin_soykok/static/media/temp-sap.06e82f1844598417d82806c03bc0234f.svg",
+    "static/media/temp-neuro.svg": "/huseyin_soykok/static/media/temp-neuro.db5c4034f1dfc8f3170841b5fabe5509.svg",
     "static/media/cancel.svg": "/huseyin_soykok/static/media/cancel.17825c74c3c6b6934429010ee3f913fd.svg",
     "static/media/slick.woff": "/huseyin_soykok/static/media/slick.295183786cd8a1389865.woff"
   },
   "entrypoints": [
     "static/css/main.6ca0633f.css",
-    "static/js/main.11a7b7c1.js"
+    "static/js/main.c74a5e37.js"
   ]
 }
