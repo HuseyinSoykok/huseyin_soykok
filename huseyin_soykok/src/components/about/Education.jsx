@@ -2,7 +2,7 @@ import React from "react";
 
 const educationContent = [
   {
-  year: "2024",
+  year: "2019-2024",
   degree: "SOFTWARE ENGINEERING DEGREE",
   institute: "EASTERN MEDITERRANEAN UNIVERSITY (EMU)",
   details: `Bachelor of software engineering.`,

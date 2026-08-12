@@ -1,18 +1,35 @@
 import React from "react";
 
-const skillsContent = [
-  { skillClass: "p90", skillPercent: "90", skillName: "HTML" },
-  { skillClass: "p70", skillPercent: "70", skillName: "JAVASCRIPT" },
-  { skillClass: "p90", skillPercent: "90", skillName: "CSS" },
-  { skillClass: "p95", skillPercent: "95", skillName: "WIX" },
-  { skillClass: "p75", skillPercent: "75", skillName: "NODE.JS" },
-  { skillClass: "p80", skillPercent: "80", skillName: "PYTHON" },
-  { skillClass: "p65", skillPercent: "65", skillName: "REACT" },
-  { skillClass: "p70", skillPercent: "70", skillName: "Vue.JS" },
-  { skillClass: "p65", skillPercent: "65", skillName: "C++" },
-  { skillClass: "p80", skillPercent: "80", skillName: "Express.JS" },
-  { skillClass: "p80", skillPercent: "80", skillName: "PostgreSQL" },
+import awsLogo from "../../assets/img/skills/aws.svg";
+import claudeCodeLogo from "../../assets/img/skills/claude-code.svg";
+import dockerLogo from "../../assets/img/skills/docker.svg";
+import kubernetesLogo from "../../assets/img/skills/kubernetes.svg";
+import mysqlLogo from "../../assets/img/skills/mysql.svg";
+import javascriptLogo from "../../assets/img/skills/javascript.svg";
+import wixLogo from "../../assets/img/skills/wix.svg";
+import nodejsLogo from "../../assets/img/skills/nodejs.svg";
+import pythonLogo from "../../assets/img/skills/python.svg";
+import reactLogo from "../../assets/img/skills/react.svg";
+import vuejsLogo from "../../assets/img/skills/vuejs.svg";
+import cplusplusLogo from "../../assets/img/skills/cplusplus.svg";
+import expressLogo from "../../assets/img/skills/express.svg";
+import postgresqlLogo from "../../assets/img/skills/postgresql.svg";
 
+const skillsContent = [
+  { skillName: "Amazon Web Services (AWS)", logo: awsLogo },
+  { skillName: "Generative-AI", logo: claudeCodeLogo },
+  { skillName: "Docker", logo: dockerLogo },
+  { skillName: "Kubernetes", logo: kubernetesLogo },
+  { skillName: "MySQL", logo: mysqlLogo },
+  { skillName: "JavaScript", logo: javascriptLogo },
+  { skillName: "WIX", logo: wixLogo },
+  { skillName: "Node.js", logo: nodejsLogo },
+  { skillName: "Python", logo: pythonLogo },
+  { skillName: "React", logo: reactLogo },
+  { skillName: "Vue.js", logo: vuejsLogo },
+  { skillName: "C++", logo: cplusplusLogo },
+  { skillName: "Express.js", logo: expressLogo },
+  { skillName: "PostgreSQL", logo: postgresqlLogo },
 ];
 
 const Skills = () => {
@@ -20,12 +37,8 @@ const Skills = () => {
     <>
       {skillsContent.map((val, i) => (
         <div className="col-6 col-md-3 mb-3 mb-sm-5" key={i}>
-          <div className={`c100 ${val.skillClass}`}>
-            <span>{val.skillPercent}%</span>
-            <div className="slice">
-              <div className="bar"></div>
-              <div className="fill"></div>
-            </div>
+          <div className="skill-logo">
+            <img src={val.logo} alt={`${val.skillName} logo`} loading="lazy" />
           </div>
           <h6 className="text-uppercase open-sans-font text-center mt-2 mt-sm-4">
             {val.skillName}

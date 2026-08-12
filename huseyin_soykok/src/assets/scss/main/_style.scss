@@ -143,9 +143,19 @@ body.light .about .box-stats {
   border: 1px solid #ddd;
 }
 
-body.light .about .c100,
 body.light .about .resume-box .time {
   background-color: #eee;
+}
+
+body.light .about .skill-logo {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+body.light .about .skill-logo:hover {
+  border-color: var(--main-primary-color);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
 }
 
 body.light .about .resume-box .time,
@@ -159,14 +169,6 @@ body.light .about .resume-box .place:before {
 
 body.light .about .resume-box li:after {
   border-left: 1px solid #ddd;
-}
-
-body.light .about .c100 > span {
-  color: #666;
-}
-
-body.light .about .c100:after {
-  background-color: #fff;
 }
 
 body.light .portfolio .slideshow figure {
@@ -842,18 +844,40 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 /* Skills */
 
-.about .c100 {
-  float: none !important;
+.about .skill-logo {
+  width: 110px;
+  height: 110px;
+  max-width: 100%;
   margin: 0 auto;
-  background-color: #252525;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 5px solid #4169e1;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.about .c100 > span {
-  color: #fff;
+.about .skill-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.about .c100:after {
-  background-color: #111;
+.about .skill-logo:hover {
+  transform: translateY(-6px);
+  border-color: var(--main-primary-color);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 575px) {
+  .about .skill-logo {
+    width: 92px;
+    height: 92px;
+    padding: 18px;
+  }
 }
 
 /*** Portfolio ***/
