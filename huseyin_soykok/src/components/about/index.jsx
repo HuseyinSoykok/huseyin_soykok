@@ -2,6 +2,7 @@ import React from "react";
 import Achievements from "./Achievements";
 import Education from "./Education";
 import Experience from "./Experience";
+import Work from "./Work";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
 import cv from "../../assets/img/Hüseyin Soykök CV Resume.pdf";
@@ -75,10 +76,10 @@ const index = () => {
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
-              Experiences <span>&</span> Education
+              Experiences, Work <span>&</span> Education
             </h3>
           </div>
-          <div className="col-lg-6 m-15px-tb">
+          <div className="col-lg-4 m-15px-tb">
             <div className="resume-box">
               <div><h3 style={{
                 fontSize: '2.0em',
@@ -93,7 +94,22 @@ const index = () => {
               <Experience />
             </div>
           </div>
-          <div className="col-lg-6 m-15px-tb">
+          <div className="col-lg-4 m-15px-tb">
+            <div className="resume-box">
+              <div><h3 style={{
+                fontSize: '2.0em',
+                textTransform: 'uppercase',
+                fontFamily: 'Open Sans, sans-serif',
+                background: `linear-gradient(45deg, #4169e1, #6495ed, #4169e1)`,
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+              }}>Work</h3>
+              <br />
+              </div>
+              <Work />
+            </div>
+          </div>
+          <div className="col-lg-4 m-15px-tb">
             <div className="resume-box">
             <div><h3 style={{
                 fontSize: '2.0em',
